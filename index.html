@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <Script>
-        <script>
+<Script>
 
 let nome = prompt("Insira o seu nome");
-let peso = parseInt(prompt("Insira o seu peso em (kg)"));
-let altura = parseFloat(prompt("Insira a sua altura em (m)"));
+let peso = prompt("Insira o seu peso em (kg)");
+let altura = prompt("Insira a sua altura em (m)");
 
 const imc = peso / (altura * altura);
 
@@ -35,12 +26,10 @@ else if (imc >= 35 && imc < 40)
 {
 alert("Obesidade grau II");
 }
-else {
+else if (imc >= 40) {
 alert("Obesidade grau III");
 }
-
-</script
-
-    </Script>
-</body>
-</html>
+else {
+    alert("c é gordao")
+}
+</Script>
